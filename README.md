@@ -16,6 +16,13 @@
 
 ![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/86945396-b32e-4234-9def-2d29d68bd7dc)
 
+  3. Объединяем их:
+
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/e5305844-28cb-4ea5-b292-44d49b5df9ec)
+
+  4. История команд:
+
+
 
 ### 2. Создать директорию, переместить файл туда.
 
