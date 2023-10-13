@@ -28,6 +28,7 @@ public class AnimalCreator extends Creator{
             case Donkey:
                 return new Donkey(name, date);
             default:
+                System.out.println("Такого животного здесь нет.");
                 break;
         }
         return null;
