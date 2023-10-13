@@ -79,17 +79,16 @@ root@milav:/home/milav# dpkg -i mysql-apt-config_0.8.26-1_all.deb
 
 ![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/c50dcb62-1608-4a79-ad7d-1097169a1e91)
 
-  3. Обновляем информацию о пакетах и видим подключенный репозиторий mysql:
+  3. Устанавливаем mysql-server:
 
-sudo apt-get update
+root@milav:/var/lib/dpkg# apt install mysql-server mysql-client
 
-  4. Устанавливаем mysql-server:
-
-sudo apt-get install mysql-server
-
-  5. Проверяем результат установки:
+  4. Проверяем результат установки:
 
 systemctl status mysql
+
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/6bc484b6-8490-49f6-a0fa-e98a541ef52c)
+
 
 ### 4. Установить и удалить deb-пакет с помощью dpkg.
 
