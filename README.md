@@ -56,11 +56,11 @@ root@milav:/home/milav# cat 'Друзья человека'
 
 ### 2. Создать директорию, переместить файл туда.
 
-mkdir newdir
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/a31f2586-4891-48ab-a1d0-a9bcae0bff19)
 
-mv 'Друзья человека' newdir/
+История команд:
 
-ls
+
 
 
 ### 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
