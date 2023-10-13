@@ -12,7 +12,10 @@
 ![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/cee1121b-a431-4efc-b583-a74a2ffd79ce)
 
 
-  2. Создание файл Вьючные животные
+  2. Создаем файл Вьючные животные
+
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/86945396-b32e-4234-9def-2d29d68bd7dc)
+
 
 ### 2. Создать директорию, переместить файл туда.
 
