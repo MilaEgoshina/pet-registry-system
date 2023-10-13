@@ -9,7 +9,8 @@
 
   1. Создаем файл Домашние животные
 
-![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/f8b46336-1e74-4290-b70d-bd1fdcbb5d1c)
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/cee1121b-a431-4efc-b583-a74a2ffd79ce)
+
 
   2. Создание файл Вьючные животные
 
