@@ -3,16 +3,16 @@ package Final.Model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Animal {
+
+public class Animal{
 
     private String name;
     private ArrayList<String> commands = new ArrayList<String>();
     private LocalDate dateOfBirth;
 
-    public Animal(String name, LocalDate date,ArrayList<String> commands ){
+    public Animal(String name, LocalDate date){
         this.name = name;
         this.dateOfBirth = date;
-        this.commands = commands;
     }
 
     public String getName() {
@@ -47,5 +47,6 @@ public class Animal {
                 ", dateOfBirth = '" + dateOfBirth + '\'' +
                 '}';
     }
+
     
 }

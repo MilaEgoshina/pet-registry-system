@@ -2,15 +2,15 @@ package Final.Model.Pets;
 
 import java.time.LocalDate;
 
-public class Cat extends Pet{
+public class Hamster extends Pet{
 
-    public Cat(String name, LocalDate date) {
+    public Hamster(String name, LocalDate date) {
         super(name, date);
     }
 
     @Override
     public String toString() {
-        return "Cat {" +
+        return "Hamster {" +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +

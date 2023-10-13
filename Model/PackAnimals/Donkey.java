@@ -1,16 +1,16 @@
-package Final.Model.Pets;
+package Final.Model.PackAnimals;
 
 import java.time.LocalDate;
 
-public class Cat extends Pet{
+public class Donkey extends PackAnimal{
 
-    public Cat(String name, LocalDate date) {
+    public Donkey(String name, LocalDate date) {
         super(name, date);
     }
 
     @Override
     public String toString() {
-        return "Cat {" +
+        return "Donkey {" +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
