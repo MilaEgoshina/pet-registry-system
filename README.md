@@ -69,26 +69,25 @@ root@milav:/home/milav# cd attestaion/
 
 ### 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
 
-Скачиваем конфигуратор mysql:
+  1. Скачиваем конфигуратор mysql:
 
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+root@milav:/home/milav# wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
 
-Переходим в папку Загрузки и устанавливаем компоненты mysql с помощью конфигуратора:
+  2. Устанавливаем компоненты mysql с помощью конфигуратора:
 
-cd Загрузки
-sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+root@milav:/home/milav# dpkg -i mysql-apt-config_0.8.26-1_all.deb
 
-В процессе установки жмем Ок, чтобы выполнить полную установку
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/c50dcb62-1608-4a79-ad7d-1097169a1e91)
 
-Обновляем информацию о пакетах и видим подключенный репозиторий mysql:
+  3. Обновляем информацию о пакетах и видим подключенный репозиторий mysql:
 
 sudo apt-get update
 
-Устанавливаем mysql-server:
+  4. Устанавливаем mysql-server:
 
 sudo apt-get install mysql-server
 
-Проверяем результат установки:
+  5. Проверяем результат установки:
 
 systemctl status mysql
 
