@@ -89,7 +89,6 @@ systemctl status mysql
 
 ![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/6bc484b6-8490-49f6-a0fa-e98a541ef52c)
 
-
 ### 4. Установить и удалить deb-пакет с помощью dpkg.
 
 Скачиваем пакет для установки:
@@ -107,6 +106,7 @@ sudo dpkg -r mysql-connector-j
 sudo apt-get autoremove
 
 ![screenshot](img/3-4-5.png)
+
 
 ### 5. Выложить историю команд в терминале ubuntu.
 
