@@ -21,8 +21,22 @@
 ![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/e5305844-28cb-4ea5-b292-44d49b5df9ec)
 
   4. История команд:
-
-
+root@milav:/home/milav# cat > 'Домашние животные'
+Собаки
+Кошки
+Хомяки
+root@milav:/home/milav# cat > 'Вьючные животные'
+Лощади
+Верблюды
+Ослы
+root@milav:/home/milav# cat 'Домашние животные' 'Вьючные животные' > 'Друзья человека'
+root@milav:/home/milav# cat 'Друзья человека'
+Собаки
+Кошки
+Хомяки
+Лощаиди
+Верблюды
+Ослы
 
 ### 2. Создать директорию, переместить файл туда.
 
