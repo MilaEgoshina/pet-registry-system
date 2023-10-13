@@ -93,19 +93,20 @@ systemctl status mysql
 
 Скачиваем пакет для установки:
 
-wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+root@milav:/home/milav# wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.1.0-1ubuntu22.04_all.deb
 
-Устанавливаем пакет mysql-connector-j_8.0.32-1ubuntu22.04_all.deb:
+Устанавливаем пакет mysql-connector-j_8.1.0-1ubuntu22.04_all.deb:
 
-sudo dpkg - i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+root@milav:/home/milav# dpkg -i mysql-connector-j_8.1.0-1ubuntu22.04_all.deb
 
 Удаляем пакет и его сопутствующие пакеты:
 
-sudo dpkg -r mysql-connector-j
+root@milav:/home/milav# dpkg -r mysql-connector-j
 
-sudo apt-get autoremove
+root@milav:/home/milav# apt-get autoremove
 
-![screenshot](img/3-4-5.png)
+![image](https://github.com/MilaVoroina97/Final_Attestation/assets/96314768/9a874829-44f8-4b1b-9373-d805370eb1df)
+
 
 
 ### 5. Выложить историю команд в терминале ubuntu.
