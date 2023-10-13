@@ -60,7 +60,11 @@ root@milav:/home/milav# cat 'Друзья человека'
 
 История команд:
 
+root@milav:/home/milav# mkdir attestaion
 
+root@milav:/home/milav# mv 'Друзья человека' attestaion/
+
+root@milav:/home/milav# cd attestaion/
 
 
 ### 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
