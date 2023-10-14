@@ -2,6 +2,7 @@ package Final.Model;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Animal{
@@ -9,13 +10,14 @@ public class Animal{
     private int id;
     private static int idCounter = 0;
     private String name;
-    private ArrayList<String> commands = new ArrayList<String>();
+    private List<String> commands;
     private LocalDate dateOfBirth;
 
     public Animal(String name, LocalDate date){
         this.id = idCounter++;
         this.name = name;
         this.dateOfBirth = date;
+        this.commands = new ArrayList<>();
     }
 
     public void setId(int petId) {

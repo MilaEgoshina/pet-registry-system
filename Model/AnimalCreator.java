@@ -12,7 +12,7 @@ import Final.Model.Pets.Hamster;
 public class AnimalCreator extends Creator{
 
     @Override
-    protected Animal createNewAnimal(AnimalType type, String name, LocalDate date) {
+    public Animal createNewAnimal(AnimalType type, String name, LocalDate date) {
 
           switch (type) {
             case Cat:
