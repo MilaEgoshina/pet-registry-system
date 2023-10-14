@@ -65,8 +65,8 @@ public class Animal implements LearnNewCommand{
 
     @Override
     public boolean learnNewCommand(String newCommamd) {
-        
-        System.out.println("Вы можете придумать новую команду для домашнего животного.");
+
+        System.out.println("Вы можете придумать новую команду для животного.");
         this.setCommands(newCommamd);
         return true;
     }

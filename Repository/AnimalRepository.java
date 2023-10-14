@@ -1,7 +1,5 @@
 package Final.Repository;
 
-import java.io.IOException;
-import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +22,7 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
 
     }
 
+    @Override
     public List<Animal> getAllAnimals(){
         return this.animals;
     }
@@ -42,10 +41,10 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     }
 
     @Override
-    public String getCommands(int id) {
+    public List<String> getCommands(int id) {
 
         Animal animal = getById(id);
-        return animal.getCommands().toString();
+        return animal.getCommands();
 
     }
 
@@ -76,7 +75,9 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     }
 
     @Override
-    public boolean delete(Animal animal) {
+    public boolean delete(int id) {
+
+        Animal animal = getById(id);
 
         animals.remove(animal);
         return true;
@@ -90,7 +91,6 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         return true;
     }
 
-    @Override
     public void getAll() {
         for(Animal animal : animals){
             System.out.println(animal.toString());
