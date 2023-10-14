@@ -45,12 +45,12 @@ public class AnimalController {
         LocalDate date = LocalDate.parse(data[1], formatter);
         animal.setName(data[0]);
         animal.setDateOfBirth(date);
-        try{
-            boolean result = animalRepository.update(animal);
-            view.showMessage(String.format("%b Данные о животным успешно изменены: ", result));
-        } catch (Exception e) {
-            view.showMessage(e.getMessage());
-        }
+        // try{
+        //     boolean result = animalRepository.update(animal);
+        //     view.showMessage(String.format("%b Данные о животным успешно изменены: ", result));
+        // } catch (Exception e) {
+        //     view.showMessage(e.getMessage());
+        // }
     }
 
     public Animal getAnimalById(int id){
@@ -73,7 +73,7 @@ public class AnimalController {
         }
     }
 
-    public boolean trainPet(int id, String command){
+    public boolean trainAnimal(int id, String command){
 
         try {
 

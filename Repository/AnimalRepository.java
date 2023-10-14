@@ -33,6 +33,9 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         for(Animal animal : animals){
             if(animal.getId() == id){
                 return animal;
+            }else{
+                System.out.println("Животного с таким id нет.");
+                return null;
             }
         }
 
@@ -67,6 +70,9 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
             animal.setId(item.getId());
             return true;
             
+        }else{
+            System.out.println("Такого животного нет, поэтому заменить его не получится");
+            return false;
         }
       }
 
