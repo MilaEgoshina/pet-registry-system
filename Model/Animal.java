@@ -4,8 +4,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import Final.Interfaces.LearnNewCommand;
 
-public class Animal{
+
+public class Animal implements LearnNewCommand{
 
     private int id;
     private static int idCounter = 0;
@@ -36,8 +38,8 @@ public class Animal{
         this.name = name;
     }
 
-    public String getCommands() {
-        return commands.toString();
+    public List<String> getCommands() {
+        return commands;
     }
 
     public void setCommands(String commands) {
@@ -59,6 +61,14 @@ public class Animal{
                 ", commands = " + commands.toString() +
                 ", dateOfBirth = '" + dateOfBirth + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean learnNewCommand(String newCommamd) {
+        
+        System.out.println("Вы можете придумать новую команду для домашнего животного.");
+        this.setCommands(newCommamd);
+        return true;
     }
 
     

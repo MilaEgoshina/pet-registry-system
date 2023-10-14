@@ -39,11 +39,11 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     }
 
     @Override
-    public List<String> getCommands(int id) {
-        List<String> commands = new ArrayList<>();
+    public String getCommands(int id) {
+
         Animal animal = getById(id);
-        commands.add(animal.getCommands());
-        return commands;
+        return animal.getCommands().toString();
+
     }
 
     @Override
@@ -72,16 +72,18 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     }
 
     @Override
-    public boolean delete(int item) {
+    public boolean delete(Animal animal) {
 
-        
-        return false;
+        animals.remove(animal);
+        return true;
     }
 
     @Override
     public boolean addNewCommand(int id, String command) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'addNewCommand'");
+
+        Animal animal = getById(id);
+        animal.learnNewCommand(command);
+        return true;
     }
 
     @Override
