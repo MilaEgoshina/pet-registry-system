@@ -1,5 +1,6 @@
 package Final.Interfaces;
 
+import java.io.IOException;
 import java.time.LocalDate;
 
 import Final.Model.AnimalType;

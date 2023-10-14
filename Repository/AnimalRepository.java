@@ -1,5 +1,7 @@
 package Final.Repository;
 
+import java.io.IOException;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,15 +29,16 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     }
 
     @Override
-    public Animal getById(int id) {
+    public Animal getById(int id){
 
         for(Animal animal : animals){
             if(animal.getId() == id){
                 return animal;
             }
-
         }
+
         return null;
+    
     }
 
     @Override
@@ -58,17 +61,18 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
     public boolean update(Animal item) {
 
         for(Animal animal : animals){
-            if(animal.equals(item)){
+        if(animal.equals(item)){
 
-                animal.setName(item.getName());
-                animal.setDateOfBirth(item.getDateOfBirth());
-                animal.setId(item.getId());
-                return true;
-                
-            }
+            animal.setName(item.getName());
+            animal.setDateOfBirth(item.getDateOfBirth());
+            animal.setId(item.getId());
+            return true;
+            
         }
+      }
 
-        return false;
+      return false;
+
     }
 
     @Override
