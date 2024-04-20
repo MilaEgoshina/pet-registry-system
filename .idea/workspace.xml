@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a1d4a11-073c-4707-8515-44aee72282ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pet-registry-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnimalClass.drawio (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/UncorrectDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/UncorrectDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/LearnNewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/LearnNewCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/RepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/RepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/AnimalCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/AnimalCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/PackAnimals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/PackAnimals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/PackAnimals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/PackAnimals/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Pets/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Pets/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Pets/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterface/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterface/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterface/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/View.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fNDsdQhek6ZwftNjkgaSgXBr7t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a1d4a11-073c-4707-8515-44aee72282ae" name="Changes" comment="" />
+      <created>1713632852792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713632852792</updated>
+      <workItem from="1713632860070" duration="901000" />
+      <workItem from="1713633880212" duration="1330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

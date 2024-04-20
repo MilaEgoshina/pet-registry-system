@@ -1,10 +1,10 @@
 package Final;
 
-import Final.Controller.AnimalController;
-import Final.Interfaces.RepositoryInterface;
-import Final.Model.Animal;
-import Final.Repository.AnimalRepository;
-import Final.UserInterface.Menu;
+import Final.controller.AnimalController;
+import Final.interfaces.RepositoryInterface;
+import Final.model.Animal;
+import Final.repository.AnimalRepository;
+import Final.userinterface.Menu;
 
 public class Program {
 
