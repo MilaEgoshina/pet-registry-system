@@ -3,32 +3,32 @@
 This program simulates a registry of pets in a pet-friendly environment. It allows users to manage and interact with different types of pets.
 
 ### Functionality
-1. Add a New Pet
+1. **Add a New Pet**
 
 
    Users can add a new pet to the registry by providing details such as name, type, and commands it can perform.
 
-2. Classify Pets
+2. **Classify Pets**
 
 
    The program can automatically assign a pet to the correct class based on its type (e.g., dog, cat, bird).
 
-3. View Pet Commands
+3.  **View Pet Commands**
 
 
    Users can view a list of commands that a specific pet can perform.
 
-4. Train Pets with New Commands
+4.  **Train Pets with New Commands**
 
 
    Users can teach pets new commands to enhance their skills and abilities.
 
-5. Menu Navigation
+5.  **Menu Navigation**
 
 
    The program provides a structured menu system for easy navigation and interaction.
 
-6. Counter Class Feature
+6.  **Counter Class Feature**
 
 
    A counter class is implemented with an add() method to increment a stored integer value when a new pet is added. This is designed to work seamlessly with try-with-resources, throwing an exception in case of misuse.
