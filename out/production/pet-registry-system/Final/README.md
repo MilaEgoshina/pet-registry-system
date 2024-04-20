@@ -54,13 +54,3 @@ java PetRegistrySystem
 ###  Usage
 
 Follow the on-screen instructions to perform various actions within the program. Add new pets, train them, and explore the functionality of the Pet Registry System.
-
-![img.png](img.png)
-
-![img_1.png](img_1.png)
-
-![img_2.png](img_2.png)
-
-### Contributing
-
-Feel free to contribute to the project by submitting bug reports, feature requests, or pull requests. Your input is valuable in enhancing the functionality and user experience of the Pet Registry System.

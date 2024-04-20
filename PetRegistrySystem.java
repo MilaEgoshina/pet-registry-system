@@ -6,7 +6,7 @@ import Final.model.Animal;
 import Final.repository.AnimalRepository;
 import Final.userinterface.Menu;
 
-public class Program {
+public class PetRegistrySystem {
 
     public static void main(String[] args) throws Exception {
 
