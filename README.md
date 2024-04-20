@@ -55,6 +55,9 @@ java PetRegistrySystem
 
 Follow the on-screen instructions to perform various actions within the program. Add new pets, train them, and explore the functionality of the Pet Registry System.
 
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 
 ### Contributing
 
