@@ -9,18 +9,30 @@ import Final.model.AnimalType;
 import Final.userinterface.ConsoleView;
 import Final.userinterface.View;
 
+/**
+ * Class is responsible for controlling the actions related to animals, such as creating, updating, deleting,
+ * and training animals.
+ */
 public class AnimalController {
 
     private RepositoryInterface<Animal> animalRepository;
     private View<Animal> view;
     private Validator validator;
 
+    /**
+     * Constructor for AnimalController class.
+     * @param repository An instance of RepositoryInterface<Animal> for storing and managing animals.
+     */
     public AnimalController(RepositoryInterface<Animal> repository){
         this.animalRepository = repository;
         this.view = new ConsoleView();
         this.validator = new Validator();
     }
 
+    /**
+     * Method to create a new animal of a specified type.
+     * @param type The type of animal to create.
+     */
     public void createMyAnimal(AnimalType type){
 
         String[] data = new String[]{view.getUserName(),view.getUserDate()};
@@ -36,6 +48,10 @@ public class AnimalController {
         }
     }
 
+    /**
+     * Method to update an existing animal's information.
+     * @param id The ID of the animal to update.
+     */
     public void updateMyAnimal(int id){
         
         Animal animal = getAnimalById(id);
@@ -53,6 +69,11 @@ public class AnimalController {
         // }
     }
 
+    /**
+     * Method to get an animal by its ID.
+     * @param id The ID of the animal to retrieve.
+     * @return The animal with the specified ID.
+     */
     public Animal getAnimalById(int id){
         try{
 
@@ -63,7 +84,9 @@ public class AnimalController {
 
         return null;
     }
-
+    /**
+     * Method to retrieve all animals stored in the repository and display them.
+     */
     public void getAllMyAnimals(){
         try {
 
@@ -73,6 +96,12 @@ public class AnimalController {
         }
     }
 
+    /**
+     * Method to train an animal with a new command.
+     * @param id The ID of the animal to train.
+     * @param command The command to train the animal with.
+     * @return True if the command was successfully trained, false otherwise.
+     */
     public boolean trainAnimal(int id, String command){
 
         try {
@@ -92,6 +121,10 @@ public class AnimalController {
         return false;
     }
 
+    /**
+     * Method to delete an animal by its ID.
+     * @param id The ID of the animal to delete.
+     */
     public void deleteMyAnimal(int id){
         try {
             
@@ -101,6 +134,10 @@ public class AnimalController {
         }
     }
 
+    /**
+     * Method to get all the commands trained for a specific animal.
+     *  @param id The ID of the animal to retrieve commands for.
+     */
     public void getCommands(int id){
 
         try {

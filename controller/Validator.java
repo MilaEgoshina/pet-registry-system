@@ -7,8 +7,19 @@ import java.util.Arrays;
 
 import Final.exceptions.UncorrectDataException;
 
+/**
+ * Validator class is used to validate data input.
+ * It includes methods to check if the name is in Cyrillic and if the date of birth is in a correct format and valid.
+ */
 public class Validator {
 
+    /**
+     * Method to validate the input data.
+     * It checks if the name is in Cyrillic and date of birth is in a correct format and valid.
+     *
+     * @param data the array of data to be validated
+     * @throws UncorrectDataException if the input data is incorrect
+     */
     public void validate(String[] data){
 
         StringBuilder stringBuilder = new StringBuilder();
@@ -36,6 +47,13 @@ public class Validator {
 
     }
 
+    /**
+     * Method to check if the name is in Cyrillic.
+     *
+     * @param name the name to be checked
+     * @return true if the name is in Cyrillic
+     * @throws UncorrectDataException if the name contains non-Cyrillic characters
+     */
     private boolean checkValidName(String name){
 
         for(int i = 0; i < name.length(); i++){
@@ -48,6 +66,13 @@ public class Validator {
 
     }
 
+    /**
+     * Method to check if the date of birth is in correct format and valid.
+     *
+     * @param dateOfBirth the date of birth to be checked
+     * @return true if the date of birth is in correct format and valid
+     * @throws UncorrectDataException if the date of birth is in incorrect format or not valid
+     */
     private boolean checkValidDate(String dateOfBirth){
 
 
@@ -73,6 +98,4 @@ public class Validator {
         } else 
             return true;
     }
-
-    
 }

@@ -7,14 +7,27 @@ import Final.controller.Counter;
 import Final.exceptions.UncorrectDataException;
 import Final.model.AnimalType;
 
+/**
+ * Class is representing a menu controller for interacting with the AnimalController.
+ */
 public class Menu {
 
     protected AnimalController animalController;
 
+    /**
+     * Constructor for Menu class.
+     *
+     * @param animalController the AnimalController object to interact with
+     */
     public Menu(AnimalController animalController){
         this.animalController = animalController;
     }
 
+    /**
+     * Starts the menu functionality for interacting with different options.
+     *
+     * @throws Exception if an error occurs during menu execution
+     */
     public void start() throws Exception{
         System.out.print("\033[H\033[J");
 
@@ -102,7 +115,14 @@ public class Menu {
             
          }
 
-    }     
+    }
+
+    /**
+     * Displays the menu options for selecting a type of animal.
+     *
+     * @param in the Scanner object for user input
+     * @return the selected AnimalType based on user input
+     */
     private AnimalType chooseTypeMenu(Scanner in){
 
         System.out.println("Какое животное добавить:\n1 - Кошка\n2 - Собака\n3 - Хомяк\n4 - Лощадь\n5 - Верблюд\n6 - Осел\n0 - Возврат в основное меню");
@@ -130,6 +150,12 @@ public class Menu {
         }
     }
 
+    /**
+     * Prompts user to input the ID of the animal.
+     *
+     * @param in the Scanner object for user input
+     * @return the ID of the selected animal
+     */
     private int inputIdMenu(Scanner in){
         System.out.println("\nВведите номер животного, 0 для возврата в основное меню: ");
         while(true){
@@ -144,6 +170,12 @@ public class Menu {
         }
     }
 
+    /**
+     * Displays the menu for training an animal with new commands.
+     *
+     * @param id the ID of the animal to be trained
+     * @param in the Scanner object for user input
+     */
     private void trainAnimalMenu(int id, Scanner in){
 
         while (true) {
@@ -155,7 +187,6 @@ public class Menu {
                 System.out.println("Command added.");
         }
     }
-
 }
     
     

@@ -10,11 +10,17 @@ import Final.model.AnimalCreator;
 import Final.model.AnimalType;
 import Final.model.Creator;
 
+/**
+ * Class which is representing a repository for managing animals.
+ */
 public class AnimalRepository implements RepositoryInterface<Animal>{
 
     private List<Animal> animals;
     private Creator animalCreator;
 
+    /**
+     * Constructs a new AnimalRepository with an empty list of animals and an AnimalCreator.
+     */
     public AnimalRepository(){
 
         this.animals = new ArrayList<>();
@@ -22,11 +28,22 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
 
     }
 
+    /**
+     * Retrieves all animals stored in the repository.
+     *
+     * @return the list of animals
+     */
     @Override
     public List<Animal> getAllAnimals(){
         return this.animals;
     }
 
+    /**
+     * Retrieves an animal by its id.
+     *
+     * @param id the id of the animal to retrieve
+     * @return the animal with the specified id, or null if not found
+     */
     @Override
     public Animal getById(int id){
 
@@ -40,9 +57,14 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         }
 
         return null;
-    
     }
 
+    /**
+     * Retrieves the list of commands for an animal with the specified id.
+     *
+     * @param id the id of the animal
+     * @return the list of commands for the animal
+     */
     @Override
     public List<String> getCommands(int id) {
 
@@ -51,6 +73,14 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
 
     }
 
+    /**
+     * Creates a new animal with the specified type, name, and birthdate.
+     *
+     * @param type the type of animal to create
+     * @param name the name of the animal
+     * @param date the birthdate of the animal
+     * @return true if the animal was successfully created, false otherwise
+     */
     @Override
     public boolean create(AnimalType type, String name, LocalDate date){
 
@@ -59,6 +89,12 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         return true;
     }
 
+    /**
+     * Updates an existing animal with the information from the specified item.
+     *
+     * @param item the animal with updated information
+     * @return true if the update was successful, false otherwise
+     */
     @Override
     public boolean update(Animal item) {
 
@@ -77,9 +113,14 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
       }
 
       return false;
-
     }
 
+    /**
+     * Deletes an animal with the specified id.
+     *
+     * @param id the id of the animal to delete
+     * @return true if the animal was successfully deleted, false otherwise
+     */
     @Override
     public boolean delete(int id) {
 
@@ -89,6 +130,13 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         return true;
     }
 
+    /**
+     * Adds a new command to the list of commands for the animal with the specified id.
+     *
+     * @param id the id of the animal
+     * @param command the new command to add
+     * @return true if the command was successfully added, false otherwise
+     */
     @Override
     public boolean addNewCommand(int id, String command) {
 
@@ -97,6 +145,9 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         return true;
     }
 
+    /**
+     * Displays information about all animals in the repository.
+     */
     public void getAll() {
         for(Animal animal : animals){
             System.out.println(animal.toString());

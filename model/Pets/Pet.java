@@ -5,8 +5,18 @@ import java.time.LocalDate;
 
 import Final.model.Animal;
 
+/**
+ * This class represents a Pet, which is a type of Animal.
+ * It extends the Animal class and provides functionality specific to pets.
+ */
 public class Pet extends Animal{
 
+    /**
+     * Constructor for creating a Pet object with a name and date of birth.
+     *
+     * @param name the name of the pet
+     * @param date the date of birth of the pet
+     */
     public Pet(String name, LocalDate date) {
         super(name, date);
     }

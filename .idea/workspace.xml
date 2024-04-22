@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a1d4a11-073c-4707-8515-44aee72282ae" name="Changes" comment="" />
+    <list default="true" id="4a1d4a11-073c-4707-8515-44aee72282ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/UncorrectDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/UncorrectDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/LearnNewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/LearnNewCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/RepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/RepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/AnimalCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/AnimalCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/PackAnimals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/PackAnimals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/PackAnimals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/PackAnimals/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/PackAnimals/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Pets/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Pets/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Pets/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pets/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userinterface/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userinterface/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userinterface/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/userinterface/View.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +86,7 @@
       <updated>1713632852792</updated>
       <workItem from="1713632860070" duration="901000" />
       <workItem from="1713633880212" duration="6172000" />
-      <workItem from="1713697127839" duration="594000" />
+      <workItem from="1713697127839" duration="17541000" />
     </task>
     <servers />
   </component>

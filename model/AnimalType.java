@@ -1,6 +1,8 @@
 package Final.model;
 
-
+/**
+ * Class - enum represents the different types of animals that can be created.
+ */
 public enum AnimalType {
 
     Cat,
@@ -10,6 +12,12 @@ public enum AnimalType {
     Camel,
     Donkey;
 
+    /**
+     * Method,which returns the AnimalType based on the provided type ID.
+     *
+     * @param typeId the type ID of the animal
+     * @return the corresponding AnimalType
+     */
     public static AnimalType getType (int typeId){
         switch (typeId){
             case 1:
