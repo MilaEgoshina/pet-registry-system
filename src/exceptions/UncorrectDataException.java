@@ -1,4 +1,4 @@
-package Final.exceptions;
+package src.exceptions;
 
 /**
  * Custom Exception class for handling incorrect data input.

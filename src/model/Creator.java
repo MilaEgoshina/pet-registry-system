@@ -1,4 +1,4 @@
-package Final.model;
+package src.model;
 
 import java.time.LocalDate;
 
@@ -15,6 +15,6 @@ public abstract class Creator {
      * @param date the birthdate of the animal
      * @return the newly created Animal object
      */
-    public abstract Animal createNewAnimal(AnimalType type,String name, LocalDate date);
+    public abstract Animal createNewAnimal(AnimalType type, String name, LocalDate date);
 
 }

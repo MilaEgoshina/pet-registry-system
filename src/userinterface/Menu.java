@@ -1,11 +1,11 @@
-package Final.userinterface;
+package src.userinterface;
 
 import java.util.Scanner;
 
-import Final.controller.AnimalController;
-import Final.controller.Counter;
-import Final.exceptions.UncorrectDataException;
-import Final.model.AnimalType;
+import src.controller.AnimalController;
+import src.controller.Counter;
+import src.exceptions.UncorrectDataException;
+import src.model.AnimalType;
 
 /**
  * Class is representing a menu controller for interacting with the AnimalController.

@@ -1,13 +1,13 @@
-package Final.controller;
+package src.controller;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import Final.interfaces.RepositoryInterface;
-import Final.model.Animal;
-import Final.model.AnimalType;
-import Final.userinterface.ConsoleView;
-import Final.userinterface.View;
+import src.interfaces.RepositoryInterface;
+import src.model.Animal;
+import src.model.AnimalType;
+import src.userinterface.ConsoleView;
+import src.userinterface.View;
 
 /**
  * Class is responsible for controlling the actions related to animals, such as creating, updating, deleting,

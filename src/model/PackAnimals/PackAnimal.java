@@ -1,9 +1,9 @@
-package Final.model.PackAnimals;
+package src.model.PackAnimals;
 
 import java.time.LocalDate;
 
-import Final.interfaces.LearnNewCommand;
-import Final.model.Animal;
+import src.interfaces.LearnNewCommand;
+import src.model.Animal;
 
 /**
  * This class represents a PackAnimal, which is a type of Animal that can learn new commands.
@@ -38,6 +38,7 @@ public class PackAnimal extends Animal implements LearnNewCommand{
     @Override
     public String toString() {
         return "Pack Animal {" +
+                "id = " + super.getId()  + '\'' +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +

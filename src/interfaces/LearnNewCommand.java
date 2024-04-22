@@ -1,4 +1,4 @@
-package Final.interfaces;
+package src.interfaces;
 
 /**
  * Interface, which allow to realise learning new commands for concrete animal.

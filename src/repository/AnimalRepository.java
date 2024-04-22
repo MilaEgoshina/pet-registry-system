@@ -1,14 +1,14 @@
-package Final.repository;
+package src.repository;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import Final.interfaces.RepositoryInterface;
-import Final.model.Animal;
-import Final.model.AnimalCreator;
-import Final.model.AnimalType;
-import Final.model.Creator;
+import src.interfaces.RepositoryInterface;
+import src.model.Animal;
+import src.model.AnimalCreator;
+import src.model.AnimalType;
+import src.model.Creator;
 
 /**
  * Class which is representing a repository for managing animals.

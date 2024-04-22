@@ -1,9 +1,9 @@
-package Final.userinterface;
+package src.userinterface;
 
 import java.util.List;
 import java.util.Scanner;
 
-import Final.model.Animal;
+import src.model.Animal;
 
 /**
  * Class, which is representing a console view for interacting with and displaying Animal data.

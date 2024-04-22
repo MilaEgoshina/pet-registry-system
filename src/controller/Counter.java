@@ -1,4 +1,4 @@
-package Final.controller;
+package src.controller;
 
 /**
  * Counter class that implements AutoCloseable interface.

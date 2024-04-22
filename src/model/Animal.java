@@ -1,10 +1,10 @@
-package Final.model;
+package src.model;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import Final.interfaces.LearnNewCommand;
+import src.interfaces.LearnNewCommand;
 
 /**
  * Class, which represents an animal with a name, commands it knows, and its date of birth.
@@ -106,6 +106,7 @@ public class Animal implements LearnNewCommand{
     @Override
     public String toString() {
         return "Animal {" +
+                "id = " + id + '\'' +
                 "name = '" + name + '\'' +
                 ", commands = " + commands.toString() +
                 ", dateOfBirth = '" + dateOfBirth + '\'' +

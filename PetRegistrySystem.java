@@ -1,10 +1,8 @@
-package Final;
-
-import Final.controller.AnimalController;
-import Final.interfaces.RepositoryInterface;
-import Final.model.Animal;
-import Final.repository.AnimalRepository;
-import Final.userinterface.Menu;
+import src.controller.AnimalController;
+import src.interfaces.RepositoryInterface;
+import src.model.Animal;
+import src.repository.AnimalRepository;
+import src.userinterface.Menu;
 
 public class PetRegistrySystem {
 

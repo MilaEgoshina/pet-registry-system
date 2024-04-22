@@ -1,13 +1,13 @@
-package Final.model;
+package src.model;
 
 import java.time.LocalDate;
 
-import Final.model.PackAnimals.Camel;
-import Final.model.PackAnimals.Donkey;
-import Final.model.PackAnimals.Horse;
-import Final.model.Pets.Cat;
-import Final.model.Pets.Dog;
-import Final.model.Pets.Hamster;
+import src.model.PackAnimals.Camel;
+import src.model.PackAnimals.Donkey;
+import src.model.PackAnimals.Horse;
+import src.model.Pets.Cat;
+import src.model.Pets.Dog;
+import src.model.Pets.Hamster;
 
 /**
  *  This class is responsible for creating new animal objects based on the provided animal type, name, and date of birth.

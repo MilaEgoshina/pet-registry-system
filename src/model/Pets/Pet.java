@@ -1,9 +1,9 @@
-package Final.model.Pets;
+package src.model.Pets;
 
 import java.time.LocalDate;
 
 
-import Final.model.Animal;
+import src.model.Animal;
 
 /**
  * This class represents a Pet, which is a type of Animal.
@@ -24,6 +24,7 @@ public class Pet extends Animal{
     @Override
     public String toString() {
         return "Pet {" +
+                "id = " + super.getId() + '\'' +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +

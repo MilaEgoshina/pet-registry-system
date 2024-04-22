@@ -1,4 +1,4 @@
-package Final.model.PackAnimals;
+package src.model.PackAnimals;
 
 import java.time.LocalDate;
 
@@ -21,6 +21,7 @@ public class Horse extends PackAnimal{
     @Override
     public String toString() {
         return "Horse {" +
+                "id = " + super.getId() + '\'' +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +

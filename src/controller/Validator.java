@@ -1,11 +1,11 @@
-package Final.controller;
+package src.controller;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Arrays;
 
-import Final.exceptions.UncorrectDataException;
+import src.exceptions.UncorrectDataException;
 
 /**
  * Validator class is used to validate data input.

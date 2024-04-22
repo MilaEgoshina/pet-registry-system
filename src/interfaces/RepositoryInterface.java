@@ -1,9 +1,9 @@
-package Final.interfaces;
+package src.interfaces;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import Final.model.AnimalType;
+import src.model.AnimalType;
 
 /**
  * Interface for a generic repository.

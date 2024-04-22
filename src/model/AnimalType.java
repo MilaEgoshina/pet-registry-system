@@ -1,4 +1,4 @@
-package Final.model;
+package src.model;
 
 /**
  * Class - enum represents the different types of animals that can be created.

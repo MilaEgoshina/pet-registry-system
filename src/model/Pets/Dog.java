@@ -1,4 +1,4 @@
-package Final.model.Pets;
+package src.model.Pets;
 
 import java.time.LocalDate;
 
@@ -21,6 +21,7 @@ public class Dog extends Pet{
     @Override
     public String toString() {
         return "Dog {" +
+                "id = " + super.getId() + '\'' +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
