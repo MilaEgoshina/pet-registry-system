@@ -55,11 +55,31 @@ java PetRegistrySystem
 
 Follow the on-screen instructions to perform various actions within the program. Add new pets, train them, and explore the functionality of the Pet Registry System.
 
-![img.png](img.png)
+1. Choose any actions from the menu navigation:
 
-![img_1.png](img_1.png)
+![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/6b22858f-3c36-40c1-bbe2-495abfe49dbe)
 
-![img_2.png](img_2.png)
+2. Add new animal:
+
+![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/014d1c70-7ef8-4b39-bced-ee5c5f4ce5f2)
+
+4. Train animal:
+
+![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/0daaa16a-0a43-44f6-803d-9f0f4eebe953)
+
+6. Show all commands of animal:
+
+![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/e5346136-8a1e-4c02-836f-01814f464602)
+
+8. Show all animals:
+![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/982dbaa6-46d6-4a88-9c61-2168230a0de6)
+
+
+### Documentation:
+
+ See the full documentation for this project in the docs package. You need to find index.html file and open it.
+
+ ![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/b94623bd-1bed-4f7f-9c50-ea97e6235a53)
 
 ### Contributing
 
