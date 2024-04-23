@@ -37,7 +37,7 @@ public class Menu {
             int id = 0;
             while(flag){
                 System.out.println(
-                        "\n1 - Список всех животных\n2 - Завести новое животное\n3 - Изменить данные о животном\n4 - Что умеет животное\n5 - Дрессировка\n6 - Удалить запись\n0 - Выход");
+                        "\n1 - All animals list\n2 - Add new animal\n3 - Update animal\n4 - Animal command list\n5 - Learn new commands\n6 - Delete animal\n0 - Exit");
 
                 String input = in.nextLine();
                 switch(input){

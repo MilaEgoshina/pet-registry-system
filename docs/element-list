@@ -1,0 +1,8 @@
+src.controller
+src.exceptions
+src.interfaces
+src.model
+src.model.PackAnimals
+src.model.Pets
+src.repository
+src.userinterface

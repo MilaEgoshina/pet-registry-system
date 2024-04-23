@@ -21,7 +21,7 @@ public class AnimalController {
 
     /**
      * Constructor for AnimalController class.
-     * @param repository An instance of RepositoryInterface<Animal> for storing and managing animals.
+     * @param repository An instance of RepositoryInterface for storing and managing animals.
      */
     public AnimalController(RepositoryInterface<Animal> repository){
         this.animalRepository = repository;
