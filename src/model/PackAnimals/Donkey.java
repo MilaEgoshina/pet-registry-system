@@ -21,10 +21,10 @@ public class Donkey extends PackAnimal{
     @Override
     public String toString() {
         return "Donkey {" +
-                "id = " + super.getId() + '\'' +
-                "name = '" + super.getName() + '\'' +
-                ", commands = " + super.getCommands() +
-                ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
+                "id = " + this.getId() + '\'' +
+                "name = '" + this.getName() + '\'' +
+                ", commands = " + this.getCommands() +
+                ", dateOfBirth = '" + this.getDateOfBirth() + '\'' +
                 '}';
     }
     

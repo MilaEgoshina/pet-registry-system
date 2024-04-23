@@ -50,12 +50,9 @@ public class AnimalRepository implements RepositoryInterface<Animal>{
         for(Animal animal : animals){
             if(animal.getId() == id){
                 return animal;
-            }else{
-                System.out.println("Животного с таким id нет.");
-                return null;
             }
         }
-
+        System.out.println("Животного с таким id нет.");
         return null;
     }
 
