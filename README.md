@@ -77,7 +77,7 @@ Follow the on-screen instructions to perform various actions within the program.
 
 ### Documentation:
 
- See the full documentation for this project in the docs package. You need to find index.html file and open it.
+ See the full documentation for this project in the docs package. You need to find [index.html]() file and open it.
 
  ![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/b94623bd-1bed-4f7f-9c50-ea97e6235a53)
 
