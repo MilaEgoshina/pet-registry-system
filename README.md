@@ -50,7 +50,12 @@ To run the Pet Registry System, make sure you have Java installed on your system
 javac PetRegistrySystem.java
 
 java PetRegistrySystem
+
 ```
+###  Dependencies
+
+This program depends on Java version 11 or higher. If you notice that this software can be run on a lower version, or it does not work on any version, then write to milavoronina0108@gmail.com.
+
 ###  Usage
 
 Follow the on-screen instructions to perform various actions within the program. Add new pets, train them, and explore the functionality of the Pet Registry System.
