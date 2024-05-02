@@ -82,7 +82,7 @@ Follow the on-screen instructions to perform various actions within the program.
 
 ### Documentation:
 
-Please, if you want to see the full documentation for this project, download docs package and open [index.html](https://github.com/MilaEgoshina/pet-registry-system/blob/main/docs/index.html) file.
+Please, if you want to see the full documentation for this project, just open this [link](https://milaegoshina.github.io/pet-registry-system/).
 
  ![image](https://github.com/MilaEgoshina/pet-registry-system/assets/96314768/b94623bd-1bed-4f7f-9c50-ea97e6235a53)
 
